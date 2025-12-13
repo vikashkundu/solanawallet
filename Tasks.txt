@@ -1,0 +1,16 @@
+tasks
+--task-1
+---write solana wallet adapter ui with shadcn components = done
+---create all the pages UI without functionality or with dummy data = partially done need to think about how to receive money
+---once the user connects his wallet then he should be taken to the page number - 1 = done
+---Add navigation bar and user should be able to move between pages using this nav bar = done
+---add solana backend calls from the pages as required 
+    I need to set a dev env or use dev net of solana block chain, let search which one is better
+    need 2 accounts one to send and one to receive
+    need to fetch account balance for a given account
+    need to fetch all transations for a public key from the account
+
+--
+-
+--task-2
+---add new subdomain to your original domain and link it to the github repo
