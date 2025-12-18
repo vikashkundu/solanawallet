@@ -1,6 +1,6 @@
 import FeatureCard from "@/components/common/featurecard/FeatureCard";
 import Testimonial from "@/components/common/testimonial/Testimonial";
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import type React from "react";
 
 export const Route = createFileRoute('/')({

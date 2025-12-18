@@ -1,4 +1,4 @@
-import { Connection, PublicKey,  LAMPORTS_PER_SOL, type TransactionSignature, Transaction, SystemProgram, type ParsedTransactionWithMeta, type ConfirmedSignatureInfo, type SignaturesForAddressOptions, SystemInstruction, type ParsedInstruction} from "@solana/web3.js";
+import { Connection, PublicKey,  LAMPORTS_PER_SOL, type TransactionSignature, Transaction, SystemProgram, type ParsedTransactionWithMeta, type ConfirmedSignatureInfo, type SignaturesForAddressOptions, type ParsedInstruction} from "@solana/web3.js";
 
 const RPC_URL = 'https://solana-devnet.g.alchemy.com/v2/Z5rkVTBL528nGl4kzLL8E'; //'https://api.devnet.solana.com';
 const connection = new Connection(RPC_URL, 'confirmed');
