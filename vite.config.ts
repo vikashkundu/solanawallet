@@ -13,6 +13,7 @@ export default defineConfig({
     }),
     react(),
     ],
+    base: '/solanawallet/',
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
